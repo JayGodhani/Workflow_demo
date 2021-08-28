@@ -2,7 +2,7 @@ name: NestJs CI
 
 on:
   push:
-    branches: [main,dev]
+    branches: [main, dev]
   pull_request:
     branches: [main]
 
@@ -38,3 +38,4 @@ jobs:
         run: |
           npm run build --if-present
           npm test
+          npm test:e2e
