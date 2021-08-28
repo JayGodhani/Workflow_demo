@@ -38,4 +38,4 @@ jobs:
         run: |
           npm run build --if-present
           npm test
-          npm test:e2e
+          npm run test:e2e
